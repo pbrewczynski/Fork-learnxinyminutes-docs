@@ -829,7 +829,7 @@ try {
     $condition = true;
 
     if ($condition) {
-        throw new MyException('Something just happend');
+        throw new MyException('Something just happened');
     }
 
 } catch (MyException $e) {

@@ -112,7 +112,7 @@ combinação de teclas de prefixo.
 ### Configurando ~/.tmux.conf
 
 Existe um arquivo chamado tmux.conf, ele pode ser usado para definir opções no
- momento de inicialização, da mesma maneira que .vimrc, init.el, .bash_profile são usados.
+ memento de inicialização, da mesma maneira que .vimrc, init.el, .bash_profile são usados.
 
 
 ```

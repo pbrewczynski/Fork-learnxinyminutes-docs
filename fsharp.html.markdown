@@ -426,7 +426,7 @@ module ActivePatternExamples =
     // -----------------------------------
 
     // You can create partial matching patterns as well
-    // Just use underscore in the defintion, and return Some if matched.
+    // Just use underscore in the definition, and return Some if matched.
     let (|MultOf3|_|) i = if i % 3 = 0 then Some MultOf3 else None
     let (|MultOf5|_|) i = if i % 5 = 0 then Some MultOf5 else None
 

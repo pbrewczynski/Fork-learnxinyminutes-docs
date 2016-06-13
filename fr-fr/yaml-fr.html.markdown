@@ -118,7 +118,7 @@ autre_ancre: *nom_ancre
 chaine_explicite: !!str 0.5
 
 # Certains analyseurs syntaxiques (parsers) implémentent des tags spécifiques à
-# d'autres langages, comme par exemple celui des nombres complexes de Python.
+# d'autres langages, comme par example celui des nombres complexes de Python.
 python_complex_number: !!python/complex 1+2j
 
 #####################

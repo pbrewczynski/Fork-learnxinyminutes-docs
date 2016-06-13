@@ -94,7 +94,7 @@ frutas = <[ manzana naranja pera ]>
 frutas[0]       # => "manzana"
 
 # Los objetos son colecciones de pares llave/valor sin ordenar, entre otras cosas,
-# (detallaremos más al respecto en un momento):
+# (detallaremos más al respecto en un memento):
 persona =
   nombre: "Christina"
   gusta:

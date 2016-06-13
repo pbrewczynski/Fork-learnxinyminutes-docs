@@ -37,7 +37,7 @@ echo Hello world!
 # Chaque commande commence sur une nouvelle ligne ou après un point-virgule :
 echo 'Ceci est la première ligne'; echo 'Ceci est la seconde ligne'
 
-# La déclaration d’une variable ressemble à ça :
+# La déclaration d’une variable resemble à ça :
 VARIABLE="Du texte"
 
 # Mais pas comme ça :

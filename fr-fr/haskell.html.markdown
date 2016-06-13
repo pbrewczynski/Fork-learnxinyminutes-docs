@@ -124,7 +124,7 @@ snd ("haskell", 1) -- 1
 add a b = a + b
 
 -- Notez que si vous utilisez ghci (l'interpréteur Haskell)
--- vous devrez utiliser `let`. Par exemple :
+-- vous devrez utiliser `let`. Par example :
 -- let add a b = a + b
 
 -- Utiliser une fonction
@@ -189,7 +189,7 @@ foo 5 -- 15
 
 -- Composition de fonctions
 -- la fonction (.) enchaîne deux fonctions.
--- Par exemple, on a foo qui est une fonction qui prend une valeur, y ajoute
+-- Par example, on a foo qui est une fonction qui prend une valeur, y ajoute
 -- 10 et multiplie ce résultat par 5, et ensuite retourne la valeur finale.
 foo = (*5) . (+10)
 
@@ -212,7 +212,7 @@ even . fib $ 7 -- False
 -- 5. Signature de type
 ----------------------------------------------------
 
--- Haskell a un système de types très strict : par exemple, tout a un type.
+-- Haskell a un système de types très strict : par example, tout a un type.
 
 -- Quelques types simples :
 5 :: Integer
@@ -315,7 +315,7 @@ Nothing         -- of type `Maybe a` for any `a`
 
 -- Quand un programme en Haskell est exécuté, la fonction `main`
 -- est appelée. Il doit retourner une valeur de type `IO ()`.
--- Par exemple :
+-- Par example :
 
 main :: IO ()
 main = putStrLn $ "Bonjour, le ciel ! " ++ (say Blue) 
@@ -334,7 +334,7 @@ main' = interact countLines
 -- Vous pouvez considérer qu'une valeur de type `IO ()` représente
 -- une séquence d'actions que l'ordinateur exécute, un peu comme 
 -- dans un langage impératif. On peut utiliser la structure `do` 
--- pour enchaîner des actions. Par exemple :
+-- pour enchaîner des actions. Par example :
 
 sayHello :: IO ()
 sayHello = do 
@@ -378,7 +378,7 @@ main'' = do
     putStrLn result
     putStrLn "C'était tout !"
 
--- Le type `IO` est un exemple de « monade ». La façon dont Haskell utilise
+-- Le type `IO` est un example de « monade ». La façon dont Haskell utilise
 -- une monade pour faire de l'IO lui permet d'être purement fonctionnel. N'importe
 -- quelle fonction qui interagit avec le « monde extérieur » (c'est à dire fait de l'IO)
 -- devient marqué comme `IO` dans la signature de son type. Ça nous montre
@@ -415,7 +415,7 @@ Salut, Ami !
 
 ```
 
-Et Haskell ne se limite pas à ça, on trouve encore par exemple les classes de types et les monades. Il y a beaucoup de raisons qui font que coder en Haskell est si *fun*. Je vous laisse avec un dernier exemple : une implémentation de quicksort :
+Et Haskell ne se limite pas à ça, on trouve encore par example les classes de types et les monades. Il y a beaucoup de raisons qui font que coder en Haskell est si *fun*. Je vous laisse avec un dernier example : une implémentation de quicksort :
 
 ```haskell
 qsort [] = []

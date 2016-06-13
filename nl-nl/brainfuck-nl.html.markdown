@@ -9,7 +9,7 @@ lang: nl-nl
 ---
 
 Brainfuck (schrijf je niet met een hoofdletter behalve aan het begin van een
-zin) is een extreem
+zin) is een extreme
 minimalistische Turing-complete programmeertaal met maar acht commando's.
 
 ```

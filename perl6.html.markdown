@@ -954,7 +954,7 @@ constant thrice = eager gather for ^3 { say take $_ }; #=> 0 1 2
 constant nilthingie = sink for ^3 { .say } #=> 0 1 2
 say nilthingie.perl; #=> Nil
 
-# - `quietly` - Supresses warnings
+# - `quietly` - Suppresses warnings
 # Not yet implemented !
 
 # - `contend` - Attempts side effects under STM

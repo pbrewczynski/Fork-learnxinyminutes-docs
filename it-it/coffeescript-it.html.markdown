@@ -11,7 +11,7 @@ lang: it-it
 ---
 
 CoffeeScript è un piccolo linguaggio che compila direttamente nell'equivalente
-JavaScript, non c'è nessuna interpretazione a runtime. Come possibile 
+JavaScript, non c'è nessuna interpretazione a runtime. Come possible 
 successore di Javascript, CoffeeScript fa il suo meglio per restituire 
 un codice leggibile, ben stampato e performante in ogni ambiente JavaScript.
 

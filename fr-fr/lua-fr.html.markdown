@@ -284,7 +284,7 @@ eatenBy = myFavs.animal  -- Affiche "gru"! merci à la métatable!
 -- Mais il reste possible d'imiter de plusieurs manières 
 -- le concept de "classe" grâce aux tables et aux métatables.
 
--- L'explication pour l'exemple qui suit vient juste après.
+-- L'explication pour l'example qui suit vient juste après.
 
 Dog = {}                                   -- 1.
 
@@ -321,7 +321,7 @@ mrDog:makeSound()  -- 'Je dis: woof!       -- 8.
 
 ----------------------------------------------------
 
--- Exemple d'héritage:
+-- Example d'héritage:
 
 LoudDog = Dog:new()                           -- 1.
 

@@ -282,7 +282,7 @@ ressemblent à toutes les autres formes:
 ; La "flèche simple" ou "Thread-first", insère, à chaque niveau
 ; de la transformation, la forme courante en la seconde position
 ; de la forme suivante, constituant à chaque fois un nouvel étage
-; de transformation. Par exemple:
+; de transformation. Par example:
 (->  
    {:a 1 :b 2} 
    (assoc :c 3) ;=> Génère ici (assoc {:a 1 :b 2} :c 3)
@@ -294,7 +294,7 @@ ressemblent à toutes les autres formes:
 
 ; La "flèche double" ou "Thread-last" procède de la même manière
 ; que "->", mais insère le résultat de la réécriture de chaque
-; étage en dernière position. Par exemple:
+; étage en dernière position. Par example:
 (->>
    (range 10)
    (map inc)     ;=> Génère ici (map inc (range 10)

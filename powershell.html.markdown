@@ -308,7 +308,7 @@ if (-not (Test-Path $Profile)) {
 	notepad $Profile
 }
 # More info: `help about_profiles`
-# For a more usefull shell, be sure to check the project PSReadLine below
+# For a more useful shell, be sure to check the project PSReadLine below
 ```
 
 Interesting Projects  

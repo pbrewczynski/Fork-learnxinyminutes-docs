@@ -439,7 +439,7 @@ Nothing      -- tipo `Maybe a` para algum `a`
 ----------------------------------------------------
 
 {- As mônadas permitem que o programador construa computações
-   sando os blocos de comando sequenciais, os quais, por sua vez,
+   sando os blocos de commando sequenciais, os quais, por sua vez,
    podem ter outras sequencias de computações. Para entender melhor
    a classe Monads você precisa ler um pouco mais sobre Classes em
    Haskell e o polímofirmo ad hoc do Haskell.

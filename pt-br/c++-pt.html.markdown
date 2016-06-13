@@ -40,7 +40,7 @@ faz C++ uma das linguagens de programação mais utilizadas.
 
 int main(int argc, char** argv)
 {
-    // Argumentos de linha de comando são passados em pelo argc e argv da mesma
+    // Argumentos de linha de commando são passados em pelo argc e argv da mesma
     // forma que eles estão em C.
     // argc indica o número de argumentos,
     // e argv é um array de strings, feito C (char*) representado os argumentos

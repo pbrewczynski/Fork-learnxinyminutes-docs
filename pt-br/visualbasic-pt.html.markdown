@@ -200,7 +200,7 @@ module Module1
             Console.Write ( "Deseja continuar? (Sim / não )")
             " O programa pega a variável e imprime e começa de novo.
             answer = Console.ReadLine
-        " O comando para a variável para trabalhar seria , neste caso, " sim "
+        " O commando para a variável para trabalhar seria , neste caso, " sim "
         Loop While resposta = "yes"
 
     End Sub

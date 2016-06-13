@@ -22,7 +22,7 @@ Cet article porte principalement sur la syntaxe et quelques astuces.
 
 <!-- #################### Les balises #################### -->
    
-<!-- Voici un exemple de fichier HTML que nous allons analyser -->
+<!-- Voici un example de fichier HTML que nous allons analyser -->
 <!-- Venez voir ce que ça donne  --> 
 
 <!doctype html>

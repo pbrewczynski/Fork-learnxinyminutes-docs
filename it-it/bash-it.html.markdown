@@ -31,7 +31,7 @@ Quasi tutti gli esempi sottostanti possono fare parte di uno shell script o eseg
 # Semplice esempio ciao mondo:
 echo Ciao mondo!
 
-# Ogni comando inizia su una nuova riga, o dopo un punto e virgola:
+# Ogni commando inizia su una nuova riga, o dopo un punto e virgola:
 echo 'Questa è la prima riga'; echo 'Questa è la seconda riga'
 
 # Per dichiarare una variabile:
@@ -39,7 +39,7 @@ Variabile="Una stringa"
 
 # Ma non così:
 Variabile = "Una stringa"
-# Bash stabilirà che Variabile è un comando da eseguire e darà un errore
+# Bash stabilirà che Variabile è un commando da eseguire e darà un errore
 # perchè non esiste.
 
 # Usare la variabile:
@@ -115,18 +115,18 @@ echo $(( 10 + 5 ))
 
 # A differenza di altri linguaggi di programmazione, bash è una shell - quindi lavora nel contesto
 # della cartella corrente. Puoi elencare i file e le cartelle nella cartella
-# corrente con il comando ls:
+# corrente con il commando ls:
 ls
 
 # Questi comandi hanno opzioni che controllano la loro esecuzione:
 ls -l # Elenca tutti i file e le cartelle su una riga separata
 
-# I risultati del comando precedente possono essere passati al comando successivo come input.
-# Il comando grep filtra l'input con il pattern passato. Ecco come possiamo elencare i
+# I risultati del commando precedente possono essere passati al commando successivo come input.
+# Il commando grep filtra l'input con il pattern passato. Ecco come possiamo elencare i
 # file .txt nella cartella corrente:
 ls -l | grep "\.txt"
 
-# Puoi redirezionare l'input e l'output del comando (stdin, stdout, e stderr).
+# Puoi redirezionare l'input e l'output del commando (stdin, stdout, e stderr).
 # Leggi da stdin finchè ^EOF$ e sovrascrivi hello.py con le righe
 # comprese tra "EOF":
 cat > hello.py << EOF
@@ -153,7 +153,7 @@ python hello.py >> "output.out" 2>> "error.err"
 info bash 'Basic Shell Features' 'Redirections' > output.out 2>> error.err
 wc -l output.out error.err
 
-# Esegui un comando e stampa il suo file descriptor (esempio: /dev/fd/123)
+# Esegui un commando e stampa il suo file descriptor (esempio: /dev/fd/123)
 # vedi: man fd
 echo <(echo "#ciaomondo")
 
@@ -167,7 +167,7 @@ echo "#helloworld" | tee output.out >/dev/null
 rm -v output.out error.err output-and-error.log
 
 # I comandi possono essere sostituiti con altri comandi usando $( ):
-# Il comando seguente mostra il numero di file e cartelle nella
+# Il commando seguente mostra il numero di file e cartelle nella
 # cartella corrente.
 echo "Ci sono $(ls | wc -l) oggetti qui."
 
@@ -197,13 +197,13 @@ do
 done
 
 # Possono essere usati anche per agire su file..
-# Questo eseguirà il comando 'cat' su file1 e file2
+# Questo eseguirà il commando 'cat' su file1 e file2
 for Variabile in file1 file2
 do
     cat "$Variabile"
 done
 
-# ..o dall'output di un comando
+# ..o dall'output di un commando
 # Questo eseguirà cat sull'output di ls.
 for Output in $(ls)
 do

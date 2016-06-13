@@ -27,11 +27,11 @@ com
 algo assim
 %}
 
-% Comandos podem ocupar várinhas linhas, usando '...':
+% Commandos podem ocupar várinhas linhas, usando '...':
  a = 1 + 2 + ...
  + 4
 
-% Comandos podem ser passados para o sistema operacional
+% Commandos podem ser passados para o sistema operacional
 !ping google.com
 
 who % Exibe todas as variáveis na memória
@@ -241,7 +241,7 @@ plot(x,y1,'-',x,y2,'--',x,y3,':') % Para várias funções em um só gráfico
 legend('Descrição linha 1', 'Descrição linha 2') % Curvas com uma legenda
 
 % Método alternativo para traçar várias funções em um só gráfico:
-% Enquanto 'hold' estiver ativo, os comandos serão adicionados ao gráfico
+% Enquanto 'hold' estiver ativo, os commandos serão adicionados ao gráfico
 % existente ao invés de o substituirem.
 plot(x, y)
 hold on
@@ -312,7 +312,7 @@ load('meuArquivo.mat') % Carrega as variáveis em seu Workspace
 
 % Arquivos M (M-files)
 % Um arquivo de script é um arquivo externo contendo uma sequência de instruções.
-% Eles evitam que você digite os mesmos códigos repetidamente na janela de comandos.
+% Eles evitam que você digite os mesmos códigos repetidamente na janela de commandos.
 % Possuem a extensão *.m
 
 % Arquivos M de Funções (M-file Functions)
@@ -355,7 +355,7 @@ fopen(nomedoarquivo)
 % Saída
 disp(a) % Imprime o valor da variável a
 disp('Olá Mundo') % Imprime a string
-fprintf % Imprime na janela de comandos com mais controle
+fprintf % Imprime na janela de commandos com mais controle
 
 % Estruturas Condicionais (os parênteses são opicionais, porém uma boa prática)
 if (a > 15)

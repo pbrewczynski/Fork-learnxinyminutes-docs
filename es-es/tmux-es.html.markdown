@@ -20,7 +20,7 @@ y luego ser insertado nuevamente.
 ```
 
   tmux [command]     # Corre un comando
-                     # 'tmux' sin comandos creará una nueva sesión
+                     # 'tmux' sin commandos creará una nueva sesión
 
     new              # Crea una nueva sesión
      -s "Session"    # Crea sesión con nombre
@@ -69,7 +69,7 @@ combinaciones de teclas llamadas teclas 'Prefijo'.
 ----------------------------------------------------------------------
 
   ?                  # Lista todos los atajos de teclado
-  :                  # Entra en la línea de comandos tmux
+  :                  # Entra en la línea de commandos tmux
   r                  # Fuerza el redibujado del cliente adjuntado
   c                  # Crea una nueva ventana
 
@@ -181,7 +181,7 @@ bind - split-window -v
 unbind '"'
 unbind %
 
-# Activar sesión mas interna (cuando se anida tmux) para enviar comandos
+# Activar sesión mas interna (cuando se anida tmux) para enviar commandos
 bind a send-prefix
 
 

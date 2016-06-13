@@ -97,7 +97,7 @@ ter um número indefinido de *heads*
 * [Git para Cientistas de Computação](http://eagain.net/articles/git-for-computer-scientists/)
 * [Git para Designers](http://hoth.entp.com/output/git_for_designers.html)
 
-## Comandos
+## Commandos
 
 ### *init*
 
@@ -130,10 +130,10 @@ Para aceder rapidamente a um guia extremamente detalhada sobre cada comando.
 Ou para dar apenas uma lembraça rápida de alguma semântica.
 
 ```bash
-# Ver rapidamente os comandos disponiveis
+# Ver rapidamente os commandos disponiveis
 $ git help
 
-# Ver todos os comandos disponiveis
+# Ver todos os commandos disponiveis
 $ git help -a
 
 # Requerer *help* sobre um comando especifico - manual de utilizador

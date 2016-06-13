@@ -723,7 +723,7 @@ typedef void (*my_fnp_type)(char *);
 /******************************* Header Files **********************************
 
 Header files are an important part of c as they allow for the connection of c
-source files and can simplify code and definitions by seperating them into
+source files and can simplify code and definitions by separating them into
 seperate files.
 
 Header files are syntactically similar to c source files but reside in ".h"

@@ -41,7 +41,7 @@ funcionalidad hace de C ++ uno de los lenguajes de programación más utilizados
 // Mira http://en.wikipedia.org/wiki/Exit_status para mayor información.
 int main(int argc, char** argv)
 {
-	// Los argumentos de la línea de comandos se pasan por argc y argv de la 
+	// Los argumentos de la línea de commandos se pasan por argc y argv de la 
 	// misma manera que en C.
 	// argc indica el número de argumentos, 
 	// y argv es un arreglo de strings de estilo C (char*) 

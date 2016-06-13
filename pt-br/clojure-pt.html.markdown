@@ -252,7 +252,7 @@ keymap ; => {:a 1, :b 2, :c 3}
 (let [a 1 b 2]
   (> a b)) ; => false
 
-; Agrupe comandos juntos com "do"
+; Agrupe commandos juntos com "do"
 (do
   (print "Hello")
   "World") ; => "World" (prints "Hello")

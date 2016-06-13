@@ -12,7 +12,7 @@ Haml es un lenguage de marcas principalmente usado con Ruby, que de forma simple
 
 Apunta a reducir la repetición en tus anotaciones cerrando los tags por ti, basándose en la estructura de identación de tu código. El resultado es una anotación bien estructurada, que no se repite, lógica y fácil de leer.
 
-También puedes usar Haml en un proyecto independiente de Ruby, instalando la gema Haml en tu máquina y usando la línea de comandos para convertirlo en html.
+También puedes usar Haml en un proyecto independiente de Ruby, instalando la gema Haml en tu máquina y usando la línea de commandos para convertirlo en html.
 
 $ haml archivo_entrada.haml archivo_salida.html
 

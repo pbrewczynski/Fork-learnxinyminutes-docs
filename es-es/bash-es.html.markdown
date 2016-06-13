@@ -114,11 +114,11 @@ echo $(( 10 + 5 ))
 # directorios en un directorio actual con el comando 'ls':
 ls
 
-# Estos comandos tienen opciones que controlan su ejecución:
+# Estos commandos tienen opciones que controlan su ejecución:
 ls -l # Lista todos los archivos y directorios en líneas distintas.
 
 # Los resultados del comando anterior pueden ser pasados al siguiente 
-# como input. El comando 'grep' filtra el input con los comandos provistos.
+# como input. El comando 'grep' filtra el input con los commandos provistos.
 # Así es como podemos listar archivos .txt en el directorio actual:
 ls -l | grep "\.txt"
 
@@ -131,7 +131,7 @@ python2 hello.py 2> "error.err"
 # para después escribir el error. Para que se concatene (en lugar de eliminar)
 # use el comando ">>".
 
-# Los comandos pueden ser sustituidos dentro de otros comandos usando $():
+# Los commandos pueden ser sustituidos dentro de otros commandos usando $():
 # El siguiente ejemplo despliega el número de archivos y directorios en el
 # directorio actual.
 echo "Hay $(ls | wc -l) elementos aquí."
@@ -182,7 +182,7 @@ miOtraFuncion ()
 # Para llamar a tu función
 foo "Mi nombre es:" $NOMBRE
 
-# Hay muchos comandos útiles que puedes aprender:
+# Hay muchos commandos útiles que puedes aprender:
 # imprime las últimas 10 líneas del archivo file.txt
 tail -n 10 file.txt
 # imprime las primeras 10 líneas del archivo file.txt

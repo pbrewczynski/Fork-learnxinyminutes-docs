@@ -118,7 +118,7 @@ public class LearnJava {
 
         // Le variabili precedute da final possono essere inizializzate una volta sola,
         final int HOURS_I_WORK_PER_WEEK = 9001;
-        // pero' e' possibile dichiararle e poi inizializzarle in un secondo momento.
+        // pero' e' possible dichiararle e poi inizializzarle in un secondo momento.
         final double E;
         E = 2.71828;
 

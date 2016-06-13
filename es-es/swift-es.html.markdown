@@ -371,7 +371,7 @@ internal class Rect: Shape {
     
     init(sideLength: Int) {
         self.sideLength = sideLength
-        // Siempre poner super.init de último al momento de inicializar propiedades 
+        // Siempre poner super.init de último al memento de inicializar propiedades 
         // personalizadas
         super.init()
     }

@@ -304,7 +304,7 @@ if (true){
 }
 i; // = 5 - não `undefined` como você esperaria numa linguagem de blogo-escopo
 
-// Isso levou a padrão comum chamado de IIFE (Imediately Invoked Function 
+// Isso levou a padrão comum chamado de IIFE (Immediately Invoked Function 
 // Expression) ou (Expressão de Função Invocada Imediatamente), que previne
 // que variáveis temporárias vazem para o escopo global.
 (function(){

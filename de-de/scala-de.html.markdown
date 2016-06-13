@@ -672,7 +672,7 @@ List(1, 2, 3) map (x => x + 10)
 List(1, 2, 3) map (_ + 10)
 
 
-// Wenn der anonyme Block und die Funtion beide EIN Argument erwarten,  
+// Wenn der anonyme Block und die Function beide EIN Argument erwarten,  
 // kann sogar der Unterstrich weggelassen werden.  
 
 List("Dom", "Bob", "Natalia") foreach println

@@ -207,7 +207,7 @@ foo = (a = 1, b = 2) -> a + b
 foo!    # => 3
 
 # You pouvez utiliser cela pour cloner un argument en particulier pour éviter 
-# les effets secondaires. Par exemple:
+# les effets secondaires. Par example:
 copy = (^^target, source) ->
   for k,v of source => target[k] = v
   target

@@ -23,7 +23,7 @@ Este tutorial funciona para hy ≥ 0.9.12
 ;; s-noções básicas de expressão
 ; programas Lisp são feitos de expressões simbólicas ou sexps que se assemelham
 (some-function args)
-; agora o essencial "Olá mundo"
+; agora o essential "Olá mundo"
 (print "hello world")
 
 ;; Tipos de dados simples

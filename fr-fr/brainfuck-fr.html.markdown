@@ -25,10 +25,10 @@ Il y a huit commandes :
 < : Déplace le pointeur de données sur la cellule précédente (à gauche).
 . : Affiche la valeur ASCII de la cellule courante (par ex. 65 = 'A').
 , : Lit un caractère et le place dans la cellule courante.
-[ : Si la valeur dans la cellule courante vaut 0, saute au ] correspondant.
+[ : Si la valeur dans la cellule courante vaut 0, saute au ] correspondent.
     Sinon, continue avec la commande suivante.
 ] : Si la valeur dans la cellule courante vaut 0, continue avec la commande
-    suivante. Sinon, retourne au [ correspondant.
+    suivante. Sinon, retourne au [ correspondent.
 
 [ et ] forment une boucle « tant que » (« while »). Ils doivent évidemment
 aller par paires.

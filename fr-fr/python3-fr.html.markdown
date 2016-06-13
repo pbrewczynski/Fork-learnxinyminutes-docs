@@ -307,7 +307,7 @@ del filled_dict["one"]  # Enlever la clé "one" de filled_dict.
 
 # Les sets stockent des ensembles
 empty_set = set()
-# Initialiser un set avec des valeurs. Oui, ça ressemble aux dictionnaires, désolé.
+# Initialiser un set avec des valeurs. Oui, ça resemble aux dictionnaires, désolé.
 some_set = {1, 1, 2, 2, 3, 4}   # some_set est maintenant {1, 2, 3, 4}
 
 # Comme les clés d'un dictionnaire, les éléments d'un set doivent être immuables.

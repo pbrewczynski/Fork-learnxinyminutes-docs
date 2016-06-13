@@ -193,7 +193,7 @@ testa #=> 1
 [testa | _coda] = [:a, :b, :c]
 testa #=> :a
 
-# `cond` ci permette di verificare più condizioni allo stesso momento.
+# `cond` ci permette di verificare più condizioni allo stesso memento.
 # Usa `cond` invece di innestare più espressioni `if`.
 cond do
   1 + 1 == 3 ->

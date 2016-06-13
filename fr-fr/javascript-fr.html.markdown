@@ -69,9 +69,9 @@ doStuff()
 (1 + 3) * 2; // = 8
 
 // Il existe 3 valeurs spéciales pour les nombres:
-Infinity; // le résultat de 1/0 par exemple
--Infinity; // le résultat de -1/0 par exemple
-NaN; // le résultat de 0/0 par exemple
+Infinity; // le résultat de 1/0 par example
+-Infinity; // le résultat de -1/0 par example
+NaN; // le résultat de 0/0 par example
 
 // Il existe également le type booléen.
 true; // vrai
@@ -629,7 +629,7 @@ String.prototype.firstCharacter = function(){
 // fonctionnalités de JavaScript dans de plus anciens environnements, tels que
 // les vieux navigateurs.
 
-//Par exemple, Object.create est assez récent, mais peut être implémenté grâce à
+//Par example, Object.create est assez récent, mais peut être implémenté grâce à
 // ce polyfill
 if (Object.create === undefined){ // pour ne pas reécrire si la fonction existe déjà
     Object.create = function(proto){

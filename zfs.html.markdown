@@ -39,7 +39,7 @@ increase your IOPS.
 ### Storage Pools
 
 ZFS uses Storage Pools as an abstraction over the lower level storage provider (VDEV), allow
-you to separate the user visable file system from the physcal layout.
+you to separate the user visible file system from the physcal layout.
 
 ### ZFS Dataset
 

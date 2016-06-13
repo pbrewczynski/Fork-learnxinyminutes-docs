@@ -451,7 +451,7 @@ on a new line! ""Wow!"", the masses cried";
                 // Hata fırlatılmış olsa bile.
             } 
 
-            // PARALEL FRAMEWORK
+            // PARALLEL FRAMEWORK
             // http://blogs.msdn.com/b/csharpfaq/archive/2010/06/01/parallel-programming-in-net-framework-4-getting-started.aspx
             var websites = new string[] { 
                 "http://www.google.com", "http://www.reddit.com", 
@@ -504,9 +504,9 @@ on a new line! ""Wow!"", the masses cried";
                 Console.WriteLine(bikeSummary.Name);
 
             // ASPARALLEL
-            // Linq ve paralel işlemlerini birleştirme
+            // Linq ve parallel işlemlerini birleştirme
             var threeWheelers = bikes.AsParallel().Where(b => b.Wheels == 3).Select(b => b.Name);
-            // bu paralel bir şekilde gerçekleşecek! Threadler otomatik ve sihirli bir şekilde işleri paylaşacak! 
+            // bu parallel bir şekilde gerçekleşecek! Threadler otomatik ve sihirli bir şekilde işleri paylaşacak! 
             // Birden fazla çekirdeğiniz varsa büyük veri setleri ile kullanmak için oldukça uygun bir yapı.
 
             // LINQ - IQueryable<T> objelerini mapler ve saklar, gecikmeli bir işlemdir

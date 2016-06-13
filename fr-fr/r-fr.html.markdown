@@ -714,7 +714,7 @@ plot(list1$time, list1$price, main = "fake data")
 # Les régressions !
 linearModel <- lm(price  ~ time, data = list1)
 linearModel # sort le résultat de la régression
-# Tracer une ligne de regression sur une tracé existant
+# Tracer une ligne de regression sur une tracé existent
 abline(linearModel, col = "red")
 # Obtenir une variété de diagnostiques sympas
 plot(linearModel)

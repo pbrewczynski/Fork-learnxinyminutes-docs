@@ -229,7 +229,7 @@ e a seguinte marcação:
 
 A precedência de estilo é a seguinte. Lembre-se, a precedência é para cada  **propriedade**, não para todo o bloco.
 
-* `E` tem a precedência mais alta por causa de uma palavra-chave`!important`. É recomendável que você evitar seu uso.
+* `E` tem a precedência mais alta por causa de uma palavra-chave`!important`. É recommendável que você evitar seu uso.
 * `F` é a próxima, porque é um estilo interno.
 * `A` é a próxima, porque é mais" específico "do que qualquer outra coisa. Tem 3 especificadores: O nome do elemento `p`, o seu `class1` classe, um atributo `attr='value'`.
 * `C` está próximo, mesmo que ele tenha a mesma especificidade que `B`. Isso é porque ele aparece depois de `B`.

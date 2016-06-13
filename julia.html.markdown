@@ -155,7 +155,7 @@ b = [4; 5; 6] # => 3-element Int64 Array: [4, 5, 6]
 b[1] # => 4
 b[end] # => 6
 
-# 2-dimentional arrays use space-separated values and semicolon-separated rows.
+# 2-dimensional arrays use space-separated values and semicolon-separated rows.
 matrix = [1 2; 3 4] # => 2x2 Int64 Array: [1 2; 3 4]
 
 # Arrays of a particular Type

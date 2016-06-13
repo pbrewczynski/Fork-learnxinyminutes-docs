@@ -309,7 +309,7 @@ import Graphics.Collage as C
 -- An incoming port is just a type signature.
 port clientID : Int
 
--- An outgoing port has a defintion.
+-- An outgoing port has a definition.
 port clientOrders : List String
 port clientOrders = ["Books", "Groceries", "Furniture"]
 
