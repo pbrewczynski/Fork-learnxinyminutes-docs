@@ -46,12 +46,12 @@ filename: learn-emacs-lisp-pt.el
 ;; o Emacs é aberto. Você nunca está editando arquivos: você está
 ;; editando buffers que você pode salvar em um arquivo.
 ;;
-;; "Lisp interaction" refere-se a um conjunto de comandos disponíveis aqui.
+;; "Lisp interaction" refere-se a um conjunto de commandos disponíveis aqui.
 ;;
-;; O Emacs possui um conjunto de comandos embutidos (disponíveis em
-;; qualquer buffer) e vários subconjuntos de comandos disponíveis
+;; O Emacs possui um conjunto de commandos embutidos (disponíveis em
+;; qualquer buffer) e vários subconjuntos de commandos disponíveis
 ;; quando você ativa um modo específico. Aqui nós utilizamos
-;; `lisp-interaction-mode', que possui comandos para interpretar e navegar
+;; `lisp-interaction-mode', que possui commandos para interpretar e navegar
 ;; em código Elisp.
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

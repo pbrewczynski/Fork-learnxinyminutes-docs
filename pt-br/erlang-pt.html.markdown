@@ -33,7 +33,7 @@ Num = 42.  % Todos nomes de variáveis devem começar com uma letra maiúscula.
 % diferente à variável `Num`, você receberá um erro.
 Num = 43. % ** exception error: no match of right hand side value 43
 
-% Na maioria das linguagens, `=` denota um comando de atribuição. Em Erlang, no
+% Na maioria das linguagens, `=` denota um commando de atribuição. Em Erlang, no
 % entanto, `=` denota uma operação de casamento de padrão. `Lhs = Rhs` realmente
 % significa isso: avalia o lado direito (Rhs), e então casa o resultado com o
 % padrão no lado esquerdo (Lhs).

@@ -90,7 +90,7 @@ True ; => True
 (foolists 10 3) ;=> [10 3]
 
 ; anonymous functions are created using `fn' or `lambda' constructs
-; which are similiar to `defn'
+; which are similar to `defn'
 (map (fn [x] (* x x)) [1 2 3 4]) ;=> [1 4 9 16]
 
 ;; Sequence operations

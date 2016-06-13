@@ -177,7 +177,7 @@ des syntaxes spécifiques -->
 
 \`\`\`ruby 
 <!-- mais enlevez les backslashes quand vous faites ça, 
-gardez juste ```ruby ( ou nom de la syntaxe correspondant à votre code )-->
+gardez juste ```ruby ( ou nom de la syntaxe correspondent à votre code )-->
 def foobar
 puts "Hello world!"
 end

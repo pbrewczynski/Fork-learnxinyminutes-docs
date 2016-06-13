@@ -40,7 +40,7 @@ A célula #1 será usada num ciclo. Depois é iniciado o ciclo ([) e move-se
 o ponteiro de dados para a célula #2. Incrementa-se o valor da célula #2 10
 vezes, move-se o ponteiro de dados de volta para a célula #1, e decrementa-se
 a célula #1. Este ciclo acontece 6 vezes (são necessários 6 decrementos para
-a célula #1 chegar a 0, momento em que se salta para o ] correspondente,
+a célula #1 chegar a 0, memento em que se salta para o ] correspondente,
 continuando com a instrução seguinte).
 
 Nesta altura encontramo-nos na célula #1, cujo valor é 0, enquanto a célula #2

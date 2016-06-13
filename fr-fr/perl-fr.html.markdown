@@ -30,7 +30,7 @@ est autant adapté à un prototypage rapide qu'à des projets de grande envergur
 ## Scalaires
 #  Un scalaire représente une valeur unique :
 my $animal = "chameau";
-my $reponse = 42;
+my $response = 42;
 
 # Les valeurs scalaires peuvent être des strings, des entiers ou des nombres à virgule flottante
 # et Perl les convertira automatiquement entre elles quand nécessaire.

@@ -50,7 +50,7 @@ Pi = 3.14159.
 % commence par une lettre minuscule, suivie d'une séquence composée de
 % caractères alphanumériques, de tirets bas (`_`), ou d'arobases (`@`).
 Bonjour = bonjour.
-AutreNoeud = exemple@noeud.
+AutreNoeud = example@noeud.
 
 % Les atomes de valeur autre qu'alphanumérique peuvent être délimités par
 % des guillemets droits simples.

@@ -358,7 +358,7 @@ void WritePreferredCarTypeToFile(ETipiMacchine InputCarType)
 }
 
 // D'altro canto potresti voler evitare che un enum venga accidentalmente convertito
-// in un intero o in un altro tipo, quindi è possibile create una classe enum che
+// in un intero o in un altro tipo, quindi è possible create una classe enum che
 // impedisce la conversione implicita.
 enum class ETipiMacchine : uint8_t
 {
@@ -512,7 +512,7 @@ void MioCane::print() const
 //////////////////////////////////////////////////
 
 // In C++ puoi sovrascrivere il comportamento di operatori come +, -, *, /, ecc...
-// Questo è possibile definendo una funzione che viene chiamata
+// Questo è possible definendo una funzione che viene chiamata
 // ogniqualvolta l'operatore è usato.
 
 #include <iostream>

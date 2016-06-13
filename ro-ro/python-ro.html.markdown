@@ -9,7 +9,7 @@ lang: ro-ro
 ---
 
 Python a fost creat de Guido Van Rossum la începutul anilor '90. Python a devenit astăzi unul din
-cele mai populare limbaje de programare. M-am indrăgostit de Python pentru claritatea sa sintactică.
+cele mai popular limbaje de programare. M-am indrăgostit de Python pentru claritatea sa sintactică.
 Python este aproape pseudocod executabil.
 
 Opinia dumneavoastră este binevenită! Puteţi sa imi scrieţi la [@ociule](http://twitter.com/ociule) sau ociule [at] [google's email service]

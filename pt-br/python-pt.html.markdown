@@ -277,7 +277,7 @@ conjunto | outro_conj #=> {1, 2, 3, 4, 5, 6}
 alguma_var = 5
 
 # Aqui está uma expressão 'if'. Veja como a identação é importante em Python!
-# Esses comandos irão imprimir "alguma_var é menor que 10"
+# Esses commandos irão imprimir "alguma_var é menor que 10"
 if alguma_var > 10:
     print "some_var é maior que 10."
 elif some_var < 10:    # Esse 'elif' é opcional

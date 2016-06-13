@@ -72,7 +72,7 @@ Ahora estoy en el párrafo dos.
 
 ¡Estoy en el párrafo tres!
 
-<!-- Si en algún momento quieres insertar un break HTML <br />, puedes terminar
+<!-- Si en algún memento quieres insertar un break HTML <br />, puedes terminar
 un párrafo con dos o más espacios y luego empieza un párrafo nuevo-->
 
 Termino con dos espacios (selecciona esta línea completa para que los veas).  

@@ -9,7 +9,7 @@ lang: es-es
 ---
 
 Brainfuck (con mayúscula sólo al inicio de una oración) es un
-lenguaje de programación extremadamente pequeño, Turing completo con sólo 8 comandos.
+lenguaje de programación extremadamente pequeño, Turing completo con sólo 8 commandos.
 
 Puedes probar brainfuck en tu navegador con [brainfuck-visualizer](http://fatiherikli.github.io/brainfuck-visualizer/).
 
@@ -22,7 +22,7 @@ será ignorado.
 Brainfuck es representado por un arreglo de 30,000 celdas inicializadas
 en cero y un puntero apuntando la celda actual.
 
-Existen ocho comandos:
+Existen ocho commandos:
 
 + : Incrementa 1 al valor de la celda actual.
 - : Decrementa 1 al valor de la celda actual.

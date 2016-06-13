@@ -138,7 +138,7 @@ func learnFlowControl() {
         fmt.Println("eu avisei-te")
     }
     // A formatação do código-fonte é "estandardizada" através do comando
-    // da linha de comandos "go fmt."
+    // da linha de commandos "go fmt."
     if false {
         // reclamar
     } else {

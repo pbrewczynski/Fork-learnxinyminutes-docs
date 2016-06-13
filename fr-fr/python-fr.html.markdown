@@ -30,7 +30,7 @@ N.B. : Cet article s'applique spécifiquement à Python 2.7, mais devrait s'appl
 # Les nombres
 3 #=> 3
 
-# Les calculs produisent les résultats mathématiques escomptés
+# Les calculus produisent les résultats mathématiques escomptés
 1 + 1 #=> 2
 8 - 1 #=> 7
 10 * 2 #=> 20

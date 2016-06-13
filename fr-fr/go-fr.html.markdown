@@ -358,7 +358,7 @@ func learnConcurrency() {
   // La fonction "make" utilisée précédemment pour générer un slice. Elle
   // alloue et initialise les slices, maps et les canaux.
   c := make(chan int)
-  // Démarrage de trois goroutines simultanées. Les nombres seront incrémentés
+  // Démarriage de trois goroutines simultanées. Les nombres seront incrémentés
   // simultanément, peut-être en paralèle si la machine le permet et configurée
   // correctement. Les trois utilisent le même canal.
   go inc(0, c) // go est une instruction démarrant une nouvelle goroutine.

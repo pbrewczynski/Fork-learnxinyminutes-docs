@@ -30,7 +30,7 @@ En Julia los programas están organizados entorno al [despacho múltiple](http:/
 * [Macros tipo Lisp](http://docs.julialang.org/en/release-0.3/manual/metaprogramming/#macros) y otras comodidades para la [meta programación](http://docs.julialang.org/en/release-0.3/manual/metaprogramming).
 * Llamar funciones de otros lenguajes, mediante paquetes como: **Python** ([PyCall](https://github.com/stevengj/PyCall.jl)), [Mathematica](http://github.com/one-more-minute/Mathematica.jl), **Java** ([JavaCall](http://github.com/aviks/JavaCall.jl)), **R** ([Rif](http://github.com/lgautier/Rif.jl) y [RCall](http://github.com/JuliaStats/RCall.jl)) y **Matlab** ([MATLAB](http://github.com/JuliaLang/MATLAB.jl)).
 * [Llamar funciones de C y Fortran](http://docs.julialang.org/en/release-0.3/manual/calling-c-and-fortran-code) **directamente**: sin necesidad de usar envoltorios u APIs especiales.
-* Poderosas características de **línea de comandos** para [gestionar otros procesos](http://docs.julialang.org/en/release-0.3/manual/running-external-programs).
+* Poderosas características de **línea de commandos** para [gestionar otros procesos](http://docs.julialang.org/en/release-0.3/manual/running-external-programs).
 * Diseñado para la [computación paralela y distribuida](http://docs.julialang.org/en/release-0.3/manual/parallel-computing) **desde el principio**.
 * [Corrutinas](http://en.wikipedia.org/wiki/Coroutine): hilos ligeros "**verdes**".
 * Los [tipos definidos por el usuario](http://docs.julialang.org/en/release-0.3/manual/types) son tan **rápidos y compactos** como los tipos estándar integrados.

@@ -361,7 +361,7 @@ var miOtraFuncion = function(){
 miObjeto.miOtraFuncion = myOtherFunc;
 miObjeto.miOtraFuncion(); // = "¡HOLA MUNDO!"
 
-// Podemos especificar el contexto en el que una función será llamada con los comandos
+// Podemos especificar el contexto en el que una función será llamada con los commandos
 // 'call' o 'apply'.
 
 var otraFuncion = function(otroString){

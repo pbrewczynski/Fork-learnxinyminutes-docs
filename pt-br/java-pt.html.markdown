@@ -174,7 +174,7 @@ public class LearnJava {
         ///////////////////////////////////////
         System.out.println("\n->Estruturas de Controle");
 
-        // Os comandos If são parecidos com o da linguagem C
+        // Os commandos If são parecidos com o da linguagem C
         int j = 10;
         if (j == 10){
             System.out.println("Eu serei impresso");

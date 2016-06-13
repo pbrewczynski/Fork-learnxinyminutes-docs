@@ -49,7 +49,7 @@ math =
 race = (winner, runners...) ->
   print winner, runners
 
-# Existance :
+# Existence :
 alert "I knew it!" if elvis?
 #=> if(typeof elvis !== "undefined" && elvis !== null) { alert("I knew it!"); }
 

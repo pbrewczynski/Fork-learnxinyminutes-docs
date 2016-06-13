@@ -167,7 +167,7 @@ namespace Learning
             Console.WriteLine("\n->Data Structures");
 
             // Arreglos
-			// El tamaño del arreglo debe decidirse al momento de la declaración
+			// El tamaño del arreglo debe decidirse al memento de la declaración
             // El formato para declarar un arreglo es el siguiente:
             // <tipo_de_dato>[] <nombre_variable> = new <tipo_de_dato>[<tamaño>];
             int[] intArray = new int[10];
@@ -428,7 +428,7 @@ namespace Learning
         // Console.WriteLine("Bicycles created: " + Bicycle.bicyclesCreated);
 
         // Los valores readonly (Sólo lectura) son establecidos en tiempo de ejecución
-        // sólo pueden ser asignados al momento de la declaración o dentro de un constructor
+        // sólo pueden ser asignados al memento de la declaración o dentro de un constructor
         readonly bool hasCardsInSpokes = false; // privado de sólo lectura
 
         // Los constructores son una forma de crear clases

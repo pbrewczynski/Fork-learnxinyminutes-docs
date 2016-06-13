@@ -289,7 +289,7 @@ filename: learn-emacs-lisp-es.el
 ;; (search-forward "Hello") busca un string "Hello".
 ;; (while x y) evalua la/s sexpresion/es y mientras que x devuelva
 ;; alguna cosa.
-;; En el momento que x devuelva `nil' (es decir nada), sale del 
+;; En el memento que x devuelva `nil' (es decir nada), sale del 
 ;; bucle `while'.
 
 (replace-hello-by-bonjour)
@@ -300,7 +300,7 @@ filename: learn-emacs-lisp-es.el
 ;; Y además, hemos obtenido un error: "Search failed: Hello".
 ;;
 ;; Para evitar este error, hay que decirle a `search-forward' si debería dejar de 
-;; buscar en el buffer en algún momento y si debería fallar sin quejarse cuando 
+;; buscar en el buffer en algún memento y si debería fallar sin quejarse cuando 
 ;; no encuentra nada.
 
 ;; (search-forward "Hello" nil t) justo hace eso:

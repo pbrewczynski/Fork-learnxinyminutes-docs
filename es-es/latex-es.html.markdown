@@ -17,7 +17,7 @@ filename: learn-latex-es.tex
 % LaTeX NO es un software de procesamiento de texto que cumple con
 % "Lo que ves es lo que tienes" como MS Word u OpenOffice
 
-% Todos los comandos de LaTeX comienzan con una contrabarra (\)
+% Todos los commandos de LaTeX comienzan con una contrabarra (\)
 
 % Los documentos LaTeX comienzan definiendo el tipo de documento que se va a
 % compilar. Algunos tipos de documentos son libros, informes, presentaciones,
@@ -45,7 +45,7 @@ filename: learn-latex-es.tex
 \maketitle
 
 % La mayoría de los artículos de investigación tienen un abstract. Es posible
-% utilizar comandos predefinidos para ello.
+% utilizar commandos predefinidos para ello.
 % Esto debería aparecer en su orden lógico. Tras el título pero antes de las
 % secciones principales del cuerpo.
 % Este comando está disponible en los tipos de documentos article y report.
@@ -53,7 +53,7 @@ filename: learn-latex-es.tex
  Documentación de LaTex escrita en LaTex.
 \end{abstract}
 
-% Los comandos de sección son intuitivos.
+% Los commandos de sección son intuitivos.
 % Todos los títulos de secciones son añadidos automáticamente a la tabla de contenidos.
 \section{Introducción}
 Hola, mi nombre es Mario Pérez y estoy traduciendo este documento para aprender LaTex.
@@ -69,7 +69,7 @@ Mejor ahora.
 \label{subsec:pitagoras}
 
 % Utilizando el asterisco podemos decirle a LaTeX que no ponga los números de secciones y subsecciones.
-% Esto también funciona con otros comandos de LaTeX.
+% Esto también funciona con otros commandos de LaTeX.
 \section*{Esto es una sección no numerada}
 ¡No todas las secciones tienen que estar numeradas!
 
@@ -106,7 +106,7 @@ Mi letra griega favorita es $\xi$. También me gustan $\beta$, $\gamma$ y $\sigm
 Todavía no he encontrado una letra griega que LaTeX no conozca.
 
 Los operadores son también una parte esencial de un documento matemático: 
-funciones trigonométricas ($\sin$, $\cos$, $\tan$), logaritmos y exponenciales ($\log$, $\exp$), límites ($\lim$), etc. tienen comandos predefinidos en LaTeX.
+funciones trigonométricas ($\sin$, $\cos$, $\tan$), logaritmos y exponenciales ($\log$, $\exp$), límites ($\lim$), etc. tienen commandos predefinidos en LaTeX.
 
 Vamos a escribir una ecuación para ver cómo se hace: \\
 
@@ -132,7 +132,7 @@ También podemos insertar ecuaciones en un contexto de ecuación.
 Podemos referenciar nuestra nueva ecuación.
 Ecuación ~\ref{eq:pythagoras} también se conoce como el Teorema de Pitágoras, el cual también se encuentra en la sección ~\ref{subsec:pythagoras}. Muchas cosas pueden ser etiquetadas: figures, equations, sections, etc.
 
-Los sumatorios e integrales son escritor son los comandos sum e int:
+Los sumatorios e integrales son escritor son los commandos sum e int:
 
 % Algunos compiladores de LaTeX se quejarán si hay líneas en blanco
 % En un contexto de ecuación.

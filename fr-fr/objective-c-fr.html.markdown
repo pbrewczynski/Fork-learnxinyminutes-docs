@@ -169,7 +169,7 @@ int main (int argc, const char * argv[])
     ///////////////////////////////////////
     
     // Les opérateurs sont pareil qu'en C
-    // Par exemple :
+    // Par example :
     2 + 5; // => 7
     4.2f + 5.1f; // => 9.3f
     3 == 2; // => 0 (NO)
@@ -331,7 +331,7 @@ int main (int argc, const char * argv[])
 @end // Fin de l'interface
 
 
-// Voici un exemple d'utilisation de MaClasse
+// Voici un example d'utilisation de MaClasse
 MaClasse *maClasse = [[MaClasse alloc] init]; // créer une instance de MaClasse
 [maClasse setNombre:10]; 
 NSLog(@"%d", [maClasse nombre]); // affiche => 10
@@ -468,7 +468,7 @@ distance = 18;
 À chaque fois qu'un objet est créé dans l'application, un bloc mémoire doit être alloué.
 Quand l'application en a fini avec cet objet, la mémoire doit être libérée afin d'éviter les fuites
 mémoires
-Il n'y a pas de ramasse-miettes en Objective-C contrairement à Java par exemple. La gestion de la
+Il n'y a pas de ramasse-miettes en Objective-C contrairement à Java par example. La gestion de la
 mémoire repose sur le comptage de référence qui, pour chaque objet, assigne un compteur qui permet
 de connaitre le nombre de référence qui l'utilise.
 

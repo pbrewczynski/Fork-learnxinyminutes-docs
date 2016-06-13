@@ -372,7 +372,7 @@ eugen.nume #=> "Eugen Ionescu"
 Om.spune("Salut") #=> "Salut"
 
 
-# Scopul unei variabile este definit de modul in care le numim
+# Scopul unei variabile este definite de modul in care le numim
 # Variabilele care incep cu $ au scop global
 $var = "Sunt o variabila globala"
 defined? $var #=> "global-variable"

@@ -97,7 +97,7 @@ cualquier commit realizado, un repositorio puede tener cualquier número de
 * [Git para diseñadores](http://hoth.entp.com/output/git_for_designers.html)
 
 
-## Comandos.
+## Commandos.
 
 
 ### init
@@ -131,10 +131,10 @@ Otorga un accceso rápido a una guía extremadamente detallada de cada comando e
 git. O puede ser usada simplemente como un recordatorio de estos.
 
 ```bash
-# Una vista rápida de los comandos disponibles.
+# Una vista rápida de los commandos disponibles.
 $ git help
 
-# Chequear todos los comandos disponibles
+# Chequear todos los commandos disponibles
 $ git help -a
 
 # Obtener ayuda especifica de un comando - manual de usuario

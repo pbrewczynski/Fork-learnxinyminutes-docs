@@ -334,7 +334,7 @@ d._2
 /*
   Aparte: Até agora tudo o que fizemos neste tutorial foram expressões simples
   (valores, funções, etc). Estas expressões são suficientes para executar no
-  interpretador da linha de comandos para testes rápidos, mas não podem existir
+  interpretador da linha de commandos para testes rápidos, mas não podem existir
   isoladas num ficheiro de Scala. Por exemplo, não é possivel correr um
   ficheiro scala que apenas contenha "val x = 5". Em vez disso, as únicas
   construções de topo permitidas são:

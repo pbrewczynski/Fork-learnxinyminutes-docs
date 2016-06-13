@@ -253,7 +253,7 @@ def nomeUsuario = usuario?.nomeUsuario
 /*
   Closures
   Um closure, em Grooby, é como um "bloco de código" ou um ponteiro para método.
-  É um pedação de código que é definido e executado em um momento posterior.
+  É um pedação de código que é definido e executado em um memento posterior.
 
   Mais informação em: http://www.groovy-lang.org/closures.html
 */

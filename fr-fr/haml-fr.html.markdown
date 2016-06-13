@@ -70,7 +70,7 @@ $ haml fichier_entree.haml fichier_sortie.html
 
 /
   Vous pouvez utiliser des caractères html spéciaux en utilisant &=. Cela va
-  convertir les caractères comme &, /, : en leur équivalent HTML. Par exemple
+  convertir les caractères comme &, /, : en leur équivalent HTML. Par example
 
 %p
   &= "Oui & oui"
@@ -143,7 +143,7 @@ $ haml fichier_entree.haml fichier_sortie.html
 / -------------------------------------------
 
 /
-  Utilisez les deux points pour définir un filtre Haml, vous pouvez par exemple
+  Utilisez les deux points pour définir un filtre Haml, vous pouvez par example
   utiliser un filtre :javascript pour écrire du contenu en-ligne js
 
 :javascript

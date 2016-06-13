@@ -269,7 +269,7 @@ sur une nouvelle ligne! ""Wow!"", quel style";
             // Structure : foreach(<type_iterateur> <nom_iterateur> in <enumerable>)
             // Cette boucle est utilisable sur des objets implémentant IEnumerable ou IEnumerable<T>
             // Toutes les collections du framework .NET (Tableaux, Listes, ...) implémentent ces interfaces.
-            // (Notez que dans l'exemple suivant .ToCharArray() peut être omit car
+            // (Notez que dans l'example suivant .ToCharArray() peut être omit car
             //  string implémente IEnumerable)
             foreach (char character in "Hello World".ToCharArray())
             {
@@ -465,7 +465,7 @@ sur une nouvelle ligne! ""Wow!"", quel style";
             };
             var responses = new Dictionary<string, string>();
             
-            // L'exemple suivant exécutera chaque requête dans un thread séparé,
+            // L'example suivant exécutera chaque requête dans un thread séparé,
             // et attendra la fin de chacun d'entre eux avant de continuer
             Parallel.ForEach(websites, 
                 new ParallelOptions() {MaxDegreeOfParallelism = 3}, // maximum de 3 threads
@@ -486,7 +486,7 @@ sur une nouvelle ligne! ""Wow!"", quel style";
             dynamic student = new ExpandoObject();
             student.FirstName = "Mon prénom"; // Pas besoin de définir l'objet
 
-            // Vous pouvez même ajouter des méthodes (dans cet exemple : la méthode prend une chaîne de caractères et retourne une chaîne de caractères)
+            // Vous pouvez même ajouter des méthodes (dans cet example : la méthode prend une chaîne de caractères et retourne une chaîne de caractères)
             student.Introduce = new Func<string, string>(
                 (introduceTo) => string.Format("Hey {0}, c'est {1}", student.FirstName, introduceTo));
             Console.WriteLine(student.Introduce("Beth"));
@@ -772,7 +772,7 @@ sur une nouvelle ligne! ""Wow!"", quel style";
     }
 
     /// <summary>
-    /// Utilisé pour illustrer la connexion à une base donnée dans l'exemple LinqToSql
+    /// Utilisé pour illustrer la connexion à une base donnée dans l'example LinqToSql
     /// L'approche code first d'EntityFramework est très pratique (un peu comme ActiveRecord de Ruby) 
     /// http://msdn.microsoft.com/fr-fr/data/jj193542.aspx
     /// </summary>

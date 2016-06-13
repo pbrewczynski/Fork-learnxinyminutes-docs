@@ -48,7 +48,7 @@ not true -- false
 23 == 23 -- true
 1 /= 4 -- true
 1 >= 4 -- false
--- Comparisions < <= > >=
+-- Comparisons < <= > >=
 -- are defined in terms of compare
 compare 1 2 -- LT
 compare 2 2 -- EQ

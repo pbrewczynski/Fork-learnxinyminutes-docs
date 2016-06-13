@@ -40,7 +40,7 @@ var myVariable = 42
 let øπΩ = "value" // nomes de variáveis em unicode
 let π = 3.1415926
 let convenience = "keyword" // nome de variável contextual
-let weak = "keyword"; let override = "another keyword" // comandos podem ser separados por uma ponto e vírgula
+let weak = "keyword"; let override = "another keyword" // commandos podem ser separados por uma ponto e vírgula
 let `class` = "keyword" // Crases permitem que palavras-chave seja usadas como nome de variáveis
 let explicitDouble: Double = 70
 let intValue = 0007 // 7

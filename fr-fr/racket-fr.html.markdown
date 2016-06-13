@@ -190,7 +190,7 @@ my-pet ; => #<dog>
 
 ;;; Tables de hashage
 
-;; Créer une table de hashage non-mutable (un exemple mutable plus loin)
+;; Créer une table de hashage non-mutable (un example mutable plus loin)
 (define m (hash 'a 1 'b 2 'c 3))
 
 ;; Retrouver une valeur
@@ -585,7 +585,7 @@ vec ; => #(1 2 3 4)
 ;;   (set! tmp other)
 ;;   (set! other tmp_1))
 
-;; Mais il faut quand même faire bien attention avec les macros, par exemple:
+;; Mais il faut quand même faire bien attention avec les macros, par example:
 (define-syntax-rule (bad-while condition body ...)
   (when condition
     body ...

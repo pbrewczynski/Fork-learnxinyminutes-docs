@@ -32,7 +32,7 @@ de multe ori in mod automat.
 ; Prima apelare intr-un fisier ar trebui sa fie ns, pentru a configura namespace-ul
 (ns learnclojure)
 
-; Mai multe exemple de baza:
+; Mai multe example de baza:
 
 ; str va crea un string folosint toate argumentele sale
 (str "Hello" " " "World") ; => "Hello World"
@@ -376,7 +376,7 @@ a va oferi un inceput bun in Clojure.
 Clojure.org contine multe articole:
 [http://clojure.org/](http://clojure.org/)
 
-Clojuredocs.org contine documentatie cu exemple pentru majoritatea functiilor de baza:
+Clojuredocs.org contine documentatie cu example pentru majoritatea functiilor de baza:
 [http://clojuredocs.org/quickref/Clojure%20Core](http://clojuredocs.org/quickref/Clojure%20Core)
 
 4Clojure este o metoda excelenta pentru a exersa Clojure/FP (Programarea Functionala):

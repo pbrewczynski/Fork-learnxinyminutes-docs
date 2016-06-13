@@ -66,7 +66,7 @@ echo "Last program return value: $?"
 echo "Script's PID: $$"
 echo "Number of arguments: $#"
 echo "Scripts arguments: $@"
-echo "Scripts arguments seperated in different variables: $1 $2..."
+echo "Scripts arguments separated in different variables: $1 $2..."
 
 # 入力値の読み込み
 echo "What's your name?"

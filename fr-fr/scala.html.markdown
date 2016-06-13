@@ -177,7 +177,7 @@ s(1)
 
 (a, 2, "three")
 
-// Exemple d'utilisation
+// Example d'utilisation
 val divideInts = (x:Int, y:Int) => (x / y, x % y)
 
 

@@ -231,7 +231,7 @@ void main() {
 }
 ```
 
-Vous voyez comme on a calculé `num` comme on le ferait en haskell par exemple ?
+Vous voyez comme on a calculé `num` comme on le ferait en haskell par example ?
 C'est grâce à une innvoation de D qu'on appelle "Uniform Function Call Syntax".
 Avec l'UFCS, on peut choisir d'écrire un appelle à une fonction de manière
 classique, ou comme un appelle à une méthode. Walter Brighter a écrit un
